@@ -11,10 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/merlinx/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# SuperiorOS
+SUPERIOR_OFFICIAL := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_merlinx
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
+
+PRODUCT_NAME := superior_merlinx
 PRODUCT_DEVICE := merlinx
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
