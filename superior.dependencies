@@ -12,7 +12,7 @@
 		"remote": "SuperiorOS-Devices"
 	},
 	{
-		"repository": "JR205-5000/JR205-6768",
+		"repository": "KAIC-E235/KAIC205-6867",
 		"target_path": "kernel/xiaomi/mt6768",
 		"branch": "Liella!",
 		"remote": "github"
