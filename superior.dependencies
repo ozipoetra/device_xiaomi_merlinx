@@ -1,40 +1,26 @@
-[
-	{
+[{
 		"repository": "vendor_xiaomi_mt6768-common",
 		"target_path": "vendor/xiaomi",
-		"branch": "thirteen",
+		"branch": "fourteen",
 		"remote": "SuperiorOS-Devices"
 	},
 	{
 		"repository": "device_xiaomi_mt6768-common",
 		"target_path": "device/xiaomi/mt6768-common",
-		"branch": "thirteen",
+		"branch": "fourteen",
 		"remote": "SuperiorOS-Devices"
 	},
 	{
-		"repository": "KAIC-E235/KAIC205-6867",
+		"repository": "Projects-Corruption-Succubus/KAIC205-6867",
 		"target_path": "kernel/xiaomi/mt6768",
 		"branch": "Liella!",
 		"remote": "github"
 	},
 	{
-		"repository": "LineageOS/android_hardware_mediatek",
+		"repository": "Projects-Corruption-Succubus/android_hardware_mediatek",
 		"target_path": "hardware/mediatek",
 		"branch": "lineage-20",
 		"remote": "github"
-	},
-	{
-		"repository": "LineageOS/android_device_mediatek_sepolicy_vndr",
-		"target_path": "device/mediatek/sepolicy_vndr",
-		"branch": "lineage-20",
-		"remote": "github"
-	},		
-        {
-                "repository": "onettboots/boolx-clang",
-                "target_path": "prebuilts/clang/host/linux-x86/boolx-clang",
-                "branch": "Clang-17.0_x86",
-                "remote": "gitlab"
-        }
-
+	}
 ]	
 
